@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.3rem;
+}
+
+.container p { 
+    color: #007bff;
+    font-weight: 900;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container button{
+    height: 40px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container select{
+    height: 40px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container select option {
+    border: 2px solid #135fc2;
+}
+
+.container select:focus {
+    border: 2px solid #135fc2;
+}
+
+.areaJogo{
+    display: flex;
+    justify-content: center;
+}

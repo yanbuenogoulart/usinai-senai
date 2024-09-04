@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="game.css">
+    <link rel="shortcut icon" href="https://cdn.icon-icons.com/icons2/587/PNG/512/power-plant_icon-icons.com_55303.png" type="image/x-icon">
+    <script src="jogoMemoria.js" defer ></script>
+    <title>Jogo da Memoría - Energia Térmica</title>
+</head>
+<body>
+    <header> 
+        <div class="textotopo">
+            <h1>Jogo da Memoría</h1>
+        </div>
+        <div class="navegacao">
+            <a class="navzada" href="./index.html">Home</a>
+            <a class="navzada" href="./projeto.html">Projeto</a>
+            <a href="./matriz.html" class="navzada">Matriz</a>
+        </div>
+        <div class="container">
+            <select id="dimensao">
+                <option value="2">2 x 2</option>
+                <option value="4">4 x 4</option>
+            </select>
+            <button onclick="jogar()">Começar</button>
+            <p>Pontuação: <span id="pontos">0</span></p>
+        </div>   
+    </header>
+</head>
+<body>
+    <main>
+        <div class="areaJogo" id="areaJogo"></div>
+    </main>
+    
+</body>
+</html>
