@@ -29,8 +29,11 @@ h1 {
 h2 {
     font-size: 2rem;
     text-align: center;
-    border-bottom: solid 3px;
     border-radius: 100px;
+}
+
+h3 {
+    text-align: center;
 }
 
 .box-texto {
